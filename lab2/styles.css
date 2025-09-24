@@ -1,0 +1,145 @@
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+table {
+  width: 500px;
+  height: 100px;
+}
+
+tr:nth-child(1) {
+  background-color: #178f8f;
+  color: #000000;
+}
+
+tr:nth-child(2) {
+  background-color: #f5f517;
+}
+
+tr:nth-child(1):hover {
+  background-color: #8f4317;
+  color: #fffff5;
+}
+
+tr:nth-child(2):hover {
+  background-color: #8316f5;
+  color: #fffff5;
+}
+
+.grey-square {
+  border-radius: 30px;
+  background-color: rgb(240, 239, 239);
+  width: 150px;
+  height: 150px;
+  margin: 30px;
+  border: 1px solid black;
+  position: relative;
+}
+
+.red-circle {
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  border-radius: 100%;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+.first {
+  position: absolute;
+  bottom: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+.second {
+  position: absolute;
+  top: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+.third {
+  position: absolute;
+  right: 8px;
+  margin-top: auto;
+  margin-bottom: auto;
+  top: 0;
+  bottom: 0;
+}
+
+.fourth {
+  position: absolute;
+  left: 8px;
+  margin-top: auto;
+  margin-bottom: auto;
+  top: 0;
+  bottom: 0;
+}
+
+.top-stick {
+  width: 4px;
+  height: 77px;
+  background-color: black;
+  position: absolute;
+  top: 15px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.right-stick {
+  width: 60px;
+  height: 4px;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  right: 30px;
+}
+
+.grey-square2 {
+  border-radius: 30px;
+  background-color: rgb(240, 239, 239);
+  width: 150px;
+  height: 150px;
+  margin: 30px;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+.first2 {
+  transform: translateX(calc(75px - 50%)) translateY(8px);
+}
+
+.second2 {
+  transform: translateY(calc(75px - 100% - 8px)) translateX(8px);
+}
+
+.third2 {
+  transform: translateX(calc(75px - 50%)) translateY(calc(100px - 8px));
+}
+
+.fourth2 {
+  transform: translateX(calc(150px - 100% - 8px)) translateY(calc(100% + 50%));
+}
+
+.top-stick2 {
+  width: 4px;
+  height: 77px;
+  background-color: black;
+  transform: translateX(calc(75px - 50%)) translateY(calc(-100% - 50% + 70px));
+}
+
+.right-stick2 {
+  width: 60px;
+  height: 4px;
+  background-color: black;
+  transform: translateX(calc(75px - 14.5px)) translateY(calc(-65px + 50%));
+}
