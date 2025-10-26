@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  flex-direction: column;
+  text-align: center;
+}
+
+table,
+td,
+tr {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 30px;
+}
+
+td {
+  padding: 20px;
+  text-align: center;
+}
+
+#colorPicker {
+  width: 200px;
+}

@@ -1,0 +1,37 @@
+input.error,
+textarea.error {
+  border: 2px solid red;
+  background-color: #ffe6e6;
+}
+
+input,
+textarea {
+  width: 300px;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #999;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  width: 200px;
+  background-color: #633d59;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+body {
+  font-family: Arial;
+  padding: 20px;
+}
+
+h2 {
+  color: #333;
+}
+
+p {
+  margin: 8px 0;
+}

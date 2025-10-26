@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <form onsubmit="return formData()">
+      1. Ваш ПІБ:<br />
+      <input type="text" name="pib" value="" placeholder="Прізвище І.П." />
+      <br />
+
+      2. Ваша група:<br />
+      <textarea type="text" name="group" placeholder="КН-21"></textarea>
+      <br />
+
+      3. Номер телефону:<br />
+      <input type="text" name="phone" value="" placeholder="(123)-456-78-90" />
+      <br />
+
+      3. Номер ID-картки: <br />
+      <input
+        type="text"
+        name="idCard"
+        value=""
+        placeholder="АБ №123456"
+      /><br />
+
+      4. Ваш факультет:<br />
+      <textarea type="text" name="faculty" placeholder="ФІОТ"></textarea>
+      <br />
+
+      <input type="submit" value="Надіслати" name="Submit" />
+    </form>
+
+    <script src="data.js"></script>
+  </body>
+</html>
