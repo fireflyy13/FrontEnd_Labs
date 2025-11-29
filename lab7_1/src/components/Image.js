@@ -25,12 +25,24 @@ function Image() {
 
   return (
     <div>
+      <p>
+        Кра́ків — місто в Польщі на березі Вісли, 782 тисячі жителів (2021),
+        <br />
+        з найближчими передмістями 1,5 млн. Адміністративний центр
+        Малопольського воєводства. <br />
+        Друге за величиною та кількістю мешканців місто в Польщі після Варшави;
+        одне з найстаріших <br />
+        міст Польщі, з тисячолітньою історією, багатою культурною та
+        архітектурною спадщиною. <br />У період Австро-Угорщини один з центрів
+        Західної Галичини.
+      </p>
+
       <a href="https://www.krakow.pl/">
         {images.map((img) => (
           <img
             key={img.id}
             className="picture"
-            src="/kono-miasto-krolow.-krakow.jpg"
+            src="https://kono.jobs/wp-content/uploads/2024/05/kono-miasto-krolow.-krakow-886x458.jpg"
             alt="Krakow"
             style={{
               height: img.height + "px",
