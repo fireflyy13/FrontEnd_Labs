@@ -536,7 +536,8 @@ body {
 }
 
 .footer-wrapper {
-  height: 238px;
+  height: auto;
+  min-height: 238px;
   width: auto;
   display: flex;
   flex-direction: row;
