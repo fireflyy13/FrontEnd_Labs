@@ -405,6 +405,7 @@ body {
   color: #f99812;
   margin-bottom: 25px;
   font-size: 14px;
+  flex-wrap: wrap;
 }
 
 .course-description {
@@ -696,5 +697,15 @@ body {
 
   .footer-text {
     max-width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-left {
+    flex-direction: column;
+  }
+
+  .info {
+    flex-direction: column;
   }
 }
