@@ -585,6 +585,10 @@ body {
     height: 50%;
   }
 
+  .header2 {
+    padding: 0px;
+  }
+
   .info {
     width: auto;
     gap: 20px;
@@ -663,7 +667,7 @@ body {
 @media (max-width: 768px) {
   .header2 {
     position: relative;
-    padding: 0 20px;
+    padding: 0;
     flex-direction: column;
     gap: 20px;
     justify-content: center;
