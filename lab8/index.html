@@ -9,7 +9,16 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/5d1aa9fc72.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <body>
     <header class="header1">
       <div class="header-left">
@@ -38,9 +47,12 @@
           <div class="circle"></div>
           <p>Academics</p>
         </div>
+
         <div class="info">
           <div style="color: #50be77">Home</div>
-          <div>About Us</div>
+          <div>
+            About Us <i class="fa fa-angle-down" aria-hidden="true"></i>
+          </div>
           <div>Admissions</div>
           <div>Courses</div>
           <div>Contact</div>
@@ -58,8 +70,415 @@
         </div>
       </div>
     </header>
+    <main>
+      <div class="content display-container">
+        <div class="slide-wrapper">
+          <img
+            class="mySlides"
+            src="Students in library 1800px.webp"
+            style="width: 100%; height: auto"
+          />
+          <img
+            class="mySlides"
+            src="20250217_bp_ftmba_004-1800x1200.jpg"
+            style="width: 100%; height: auto"
+          />
+        </div>
 
-    <main></main>
-    <footer></footer>
+        <div class="image-text">You Can Learn Anything</div>
+
+        <button class="display-left" onclick="plusDivs(-1)">
+          <i class="fa-solid fa-arrow-left"></i>
+        </button>
+        <button class="display-right" onclick="plusDivs(1)">
+          <i class="fa-solid fa-arrow-right"></i>
+        </button>
+
+        <div class="dots">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+        </div>
+      </div>
+      <div class="underlined">Why Academics Works</div>
+      <div class="reasons">
+        <div class="reason-card">
+          <div class="hex"><i class="bi bi-mortarboard"></i></div>
+          <div class="reason-middle">
+            <div class="reason-text" style="color: black">
+              Personalize Learning
+            </div>
+            <div
+              style="color: rgb(118, 115, 115); margin: 15px"
+              class="reason-text"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt
+            </div>
+            <button>Learn more</button>
+          </div>
+        </div>
+        <div class="reason-card">
+          <div class="hex"><i class="fa-solid fa-pen-ruler"></i></div>
+          <div class="reason-middle">
+            <div class="reason-text" style="color: black">Trusted Courses</div>
+            <div
+              style="color: rgb(118, 115, 115); margin: 15px"
+              class="reason-text"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt
+            </div>
+            <button>Learn more</button>
+          </div>
+        </div>
+        <div class="reason-card">
+          <div class="hex"><i class="fa-solid fa-building-columns"></i></div>
+          <div class="reason-middle">
+            <div class="reason-text" style="color: black">
+              Tools for Students
+            </div>
+            <div
+              style="color: rgb(118, 115, 115); margin: 15px"
+              class="reason-text"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt
+            </div>
+            <button>Learn more</button>
+          </div>
+        </div>
+      </div>
+      <div class="popular">
+        <div class="underlined" style="margin-top: 120px; margin-bottom: 25px">
+          Popular Courses
+        </div>
+        <div style="color: rgb(118, 115, 115); margin-bottom: 100px">
+          Lorem ipsum dolor sit amet consectetur adipiscing elit.
+        </div>
+      </div>
+
+      <div class="carousel">
+        <div class="arrows-container">
+          <button class="arrow left" onclick="moveLeft()">
+            <i class="fa-solid fa-arrow-left"></i>
+          </button>
+
+          <button class="arrow right" onclick="moveRight()">
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+        <div class="cards-wrapper">
+          <div class="cards-container">
+            <div class="course-card">
+              <div class="cardImage">
+                <img
+                  src="https://lh3.googleusercontent.com/proxy/FXP5nodHCAM2WNK-wx4QzNc_bBikVx56_FHKGNHKhkKW5MXVc_ZA4TSMuHQNVtA9xMt6FSc3cTAnXOe_OlFnPuf-cmJtIEMe2hI0lpdTnyW2OscpRZGcfjxXOkkeOhifKkv8M6x60MaQVQ"
+                  class="cardImage-img"
+                />
+                <div class="price">$99.00</div>
+              </div>
+              <div class="courseName">Arithmetic</div>
+              <div>
+                <div style="margin: 40px">
+                  How To Create Mobile Apps Using Ionic
+                </div>
+                <div class="stars">
+                  <i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i>
+                </div>
+                <div class="course-description">
+                  Lorem ipsum dolor sit amet consectetur adipiscing elit. Dolor
+                  sit amet consectetur adipiscing elit quisque faucibus.
+                </div>
+                <button>Enroll In This Course</button>
+              </div>
+            </div>
+            <div class="course-card">
+              <div class="cardImage">
+                <img
+                  src="https://www.kenaztranslations.com/wp-content/uploads/2023/07/%D0%9F%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F-2-300x200.jpg"
+                  class="cardImage-img"
+                />
+                <div class="price">$99.00</div>
+              </div>
+              <div class="courseName">Mobile Application</div>
+              <div>
+                <div style="margin: 40px">
+                  How To Create Mobile Apps Using Ionic
+                </div>
+                <div class="stars">
+                  <i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i>
+                </div>
+                <div class="course-description">
+                  Lorem ipsum dolor sit amet consectetur adipiscing elit. Dolor
+                  sit amet consectetur adipiscing elit quisque faucibus.
+                </div>
+                <button>Enroll In This Course</button>
+              </div>
+            </div>
+            <div class="course-card">
+              <div class="cardImage">
+                <img
+                  src="https://webbookstudio.com/wp-content/uploads/2024/09/top-trends-in-custom-web-design-for-2024-insights-from-leading-agencies-300x200.jpg"
+                  class="cardImage-img"
+                />
+                <div class="price">$99.00</div>
+              </div>
+              <div class="courseName">Web Design</div>
+              <div>
+                <div style="margin: 40px">
+                  How To Create Mobile Apps Using Ionic
+                </div>
+                <div class="stars">
+                  <i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i>
+                </div>
+                <div class="course-description">
+                  Lorem ipsum dolor sit amet consectetur adipiscing elit. Dolor
+                  sit amet consectetur adipiscing elit quisque faucibus.
+                </div>
+                <button>Enroll In This Course</button>
+              </div>
+            </div>
+            <div class="course-card">
+              <div class="cardImage">
+                <img
+                  src="https://www.h2kinfosys.com/blog/wp-content/uploads/2024/10/Data-Science-Studium-300x200.jpeg"
+                  class="cardImage-img"
+                />
+                <div class="price">$99.00</div>
+              </div>
+              <div class="courseName">Data Science</div>
+              <div>
+                <div style="margin: 40px">
+                  How To Create Mobile Apps Using Ionic
+                </div>
+                <div class="stars">
+                  <i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i>
+                </div>
+                <div class="course-description">
+                  Lorem ipsum dolor sit amet consectetur adipiscing elit. Dolor
+                  sit amet consectetur adipiscing elit quisque faucibus.
+                </div>
+                <button>Enroll In This Course</button>
+              </div>
+            </div>
+            <div class="course-card">
+              <div class="cardImage">
+                <img
+                  src="https://etedge-insights.com/wp-content/uploads/2025/10/cybersecurity-broking-300x200.png"
+                  class="cardImage-img"
+                />
+                <div class="price">$99.00</div>
+              </div>
+              <div class="courseName">Cybersecurity</div>
+              <div>
+                <div style="margin: 40px">
+                  How To Create Mobile Apps Using Ionic
+                </div>
+                <div class="stars">
+                  <i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i>
+                </div>
+                <div class="course-description">
+                  Lorem ipsum dolor sit amet consectetur adipiscing elit. Dolor
+                  sit amet consectetur adipiscing elit quisque faucibus.
+                </div>
+                <button>Enroll In This Course</button>
+              </div>
+            </div>
+            <div class="course-card">
+              <div class="cardImage">
+                <img
+                  src="https://www.nettl.com/ie/wp-content/uploads/2022/06/stock-image-243120798-S-1-300x200.jpg"
+                  class="cardImage-img"
+                />
+                <div class="price">$99.00</div>
+              </div>
+              <div class="courseName">Graphic Design</div>
+              <div>
+                <div style="margin: 40px">
+                  How To Create Mobile Apps Using Ionic
+                </div>
+                <div class="stars">
+                  <i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i>
+                </div>
+                <div class="course-description">
+                  Lorem ipsum dolor sit amet consectetur adipiscing elit. Dolor
+                  sit amet consectetur adipiscing elit quisque faucibus.
+                </div>
+                <button>Enroll In This Course</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-dots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-wrapper">
+          <div class="about">About Our University</div>
+          <div class="footer-text">
+            <div class="footer-intro">
+              Lorem ipsum dolor sit amet consectetur adipiscing elit. Dolor sit
+              amet consectetur adipiscing elit quisque faucibus.
+            </div>
+            <div class="footer-main-text">
+              Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque
+              faucibus ex sapien vitae pellentesque sem placerat. In id cursus
+              mi pretium tellus duis convallis. Tempus leo eu aenean sed diam
+              urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum
+              egestas. Iaculis massa nisl malesuada lacinia integer nunc
+              posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad
+              litora torquent per conubia nostra inceptos himenaeos. Lorem ipsum
+              dolor sit amet consectetur adipiscing elit. Quisque faucibus ex
+              sapien vitae pellentesque sem placerat. In id cursus mi pretium
+              tellus duis convallis. Tempus leo eu aenean sed diam urna tempor.
+              Pulvinar vivamus fringilla lacus nec metus bibendum egestas.
+            </div>
+            <div style="color: #50be77; font-size: 14px">Read more</div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      let slideIndex = 1;
+      showDivs(slideIndex);
+
+      function plusDivs(n) {
+        showDivs((slideIndex += n));
+      }
+
+      function currentSlide(n) {
+        showDivs((slideIndex = n));
+      }
+
+      function showDivs(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+
+        if (n > slides.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = slides.length;
+        }
+
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+
+        for (i = 0; i < dots.length; i++) {
+          dots[i].classList.remove("active");
+        }
+
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].classList.add("active");
+      }
+
+      const track = document.querySelector(".cards-container");
+      const cards = document.querySelectorAll(".course-card");
+
+      const cardWidth = 300;
+      const gap = 30;
+      const group = 3;
+
+      const moveStep = cardWidth + gap;
+      const groupWidth = moveStep * group;
+
+      const dots = document.querySelectorAll(".carousel-dots .dot");
+      dots[0].classList.add("active");
+
+      const firstClones = [];
+      const lastClones = [];
+
+      for (let i = 0; i < group; i++) {
+        const cloneFirst = cards[i].cloneNode(true);
+        const cloneLast = cards[cards.length - 1 - i].cloneNode(true);
+
+        cloneFirst.classList.add("clone");
+        cloneLast.classList.add("clone");
+
+        firstClones.push(cloneFirst);
+        lastClones.push(cloneLast);
+      }
+
+      lastClones.reverse().forEach((c) => track.prepend(c));
+      firstClones.forEach((c) => track.append(c));
+
+      let index = group;
+      track.style.transform = `translateX(-${index * moveStep}px)`;
+
+      function update(animate = true) {
+        if (!animate) {
+          track.classList.add("no-transition");
+        } else {
+          track.classList.remove("no-transition");
+        }
+
+        track.style.transform = `translateX(-${index * moveStep}px)`;
+        updateDots();
+      }
+
+      function updateDots() {
+        let page = Math.floor((index - group) / group);
+
+        if (page < 0) page = dots.length - 1;
+        if (page >= dots.length) page = 0;
+
+        dots.forEach((d) => d.classList.remove("active"));
+        dots[page].classList.add("active");
+      }
+
+      function moveRight() {
+        index += group;
+        update();
+
+        if (index >= cards.length + group) {
+          setTimeout(() => {
+            index = group;
+            update(false);
+          }, 400);
+        }
+      }
+      
+      function moveLeft() {
+        index -= group;
+        update();
+
+        if (index < group) {
+          setTimeout(() => {
+            index = cards.length + group - group;
+            update(false);
+          }, 400);
+        }
+      }
+    </script>
   </body>
 </html>
